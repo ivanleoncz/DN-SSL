@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android-DNSSL</string>
+
+    <string name="login_title"> A message for you... </string>
+    <string name="login_user"> User </string>
+    <string name="login_password"> Password </string>
+</resources>
