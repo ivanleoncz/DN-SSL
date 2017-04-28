@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ivanlmj/git/Android-DNSSL/Flask/project"
+VIRTUAL_ENV="/home/ivanlmj/git/Android-DNSSL/Flask"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
