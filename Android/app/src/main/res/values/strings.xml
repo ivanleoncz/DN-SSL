@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">Android-DNSSL</string>
 
-    <string name="login_title"> A message for you... </string>
-    <string name="login_user"> User </string>
+    <string name="login_title"> Welcome! </string>
+    <string name="login_username"> Username </string>
     <string name="login_password"> Password </string>
+    <string name="login_button">LOGIN</string>
+
+    <string name="message_welcome">User_Name</string>
+    <string name="message_intro">A message for you:</string>
+    <string name="message_text1">DNSSL</string>
+    <string name="message_text2">Don't Nuke SSL Certificates, please.</string>
+
 </resources>
