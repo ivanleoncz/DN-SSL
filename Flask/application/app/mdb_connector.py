@@ -20,8 +20,11 @@ class Credentials:
         except:
             return "Fail to connect to MongoDB."
 
-        data = collection.find( {"User":self.user,"Password":self.password} ).count()
-        if data == 0:
-            return dumps({"Login":{"User":self.user,"Status":"nok"}},indent=4)
+        data = collection.find_one( {"User":self.user,"Password":self.password} )
+        if data is None:
+            return "not_found"
         else:
-            return dumps({"Login":{"User":self.user,"Status":"ok"}},indent=4)
+            data.pop("_id")
+            data.pop("Password")
+            return dumps(data)
+
