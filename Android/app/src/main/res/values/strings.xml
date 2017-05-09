@@ -10,5 +10,6 @@
     <string name="message_intro">A message for you:</string>
     <string name="message_text1">DNSSL</string>
     <string name="message_text2">Don't Nuke SSL Certificates, please.</string>
+    <string name="message_link"> http://some.domain/folder/page</string>
 
 </resources>

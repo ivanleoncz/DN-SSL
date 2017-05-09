@@ -58,6 +58,6 @@
         android:layout_marginTop="80dp"
         android:layout_below="@+id/message_text2"
         android:gravity="center"
-        android:text="http://.../"/>
+        android:text="@string/message_link"/>
 
 </RelativeLayout>
