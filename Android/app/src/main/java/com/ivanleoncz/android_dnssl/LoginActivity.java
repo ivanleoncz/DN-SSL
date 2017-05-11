@@ -1,5 +1,6 @@
 package com.ivanleoncz.android_dnssl;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.PasswordTransformationMethod;
@@ -25,14 +26,33 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login(View view) {
 
-        final String strUsername;
-        final String strPassword;
-        final String toastMessage;
+        final String usernameStr;
+        final String passwordStr;
+        final String toastFailed;
 
-        strUsername = username.getText().toString().trim();
-        strPassword = password.getText().toString().trim();
-        toastMessage = "Login Failed";
+        usernameStr = username.getText().toString().trim();
+        passwordStr = password.getText().toString().trim();
+        toastFailed = "Login Failed";
 
-        Toast.makeText(getApplicationContext(),"Welcome!",Toast.LENGTH_LONG).show();
+        VolleyWorker volleyWorker = new VolleyWorker(usernameStr, passwordStr);
+
+        volleyWorker.login(new VolleyWorker.LoginCallback() {
+
+            Intent intent;
+
+            @Override
+            public void onSuccess(String result) {
+                if (result.equals("nok")) {
+                    Toast.makeText(getApplicationContext(),toastFailed,Toast.LENGTH_LONG).show();
+                } else {
+                    intent = new Intent(LoginActivity.this, MessageActivity.class);
+                    startActivity(intent);
+                }
+            }
+
+        }
+
+        );
+
     }
 }
