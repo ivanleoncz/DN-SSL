@@ -26,18 +26,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
         android:gravity="center"
-        android:layout_above="@id/message_text1"
+        android:layout_above="@+id/message_title"
         android:text="@string/message_intro"
         android:textSize="18sp"/>
 
     <TextView
-        android:id="@+id/message_text1"
+        android:id="@+id/message_title"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center"
-        android:text="@string/message_text1"
+        android:text="@string/message_title"
         android:textSize="35sp"
         android:textStyle="bold"/>
 
@@ -46,9 +46,9 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/message_text1"
+        android:layout_below="@+id/message_title"
         android:gravity="center"
-        android:text="@string/message_text2"
+        android:text="@string/message_desc"
         android:textSize="18sp"/>
 
     <TextView
