@@ -23,10 +23,13 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:paddingLeft="15dp"
+        android:paddingRight="0dp"
         android:paddingStart="15dp"
-        android:text="@string/login_username"
-        android:textSize="20sp"
+        android:paddingEnd="0dp"
+        android:hint="@string/login_username"
         android:textColor="#737373"
+        android:textColorHint="#737373"
+        android:textSize="18sp"
         android:background="#e6e6e6"/>
 
     <EditText
@@ -37,9 +40,10 @@
         android:layout_gravity="center"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:text="@string/login_password"
-        android:textSize="20sp"
+        android:hint="@string/login_password"
         android:textColor="#737373"
+        android:textColorHint="#737373"
+        android:textSize="18sp"
         android:background="#e6e6e6"/>
 
     <Button
@@ -50,7 +54,8 @@
         android:layout_gravity="center"
         android:text="@string/login_button"
         android:textSize="16sp"
-        android:background="@drawable/activity_login_button"/>
+        android:background="@drawable/activity_login_button"
+        android:onClick="login"/>
 
     <ImageView
         android:layout_width="match_parent"
