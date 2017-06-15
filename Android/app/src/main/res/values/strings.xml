@@ -6,10 +6,9 @@
     <string name="login_password"> Password </string>
     <string name="login_button">LOGIN</string>
 
-    <string name="message_welcome">User_Name</string>
-    <string name="message_intro">A message:</string>
-    <string name="message_title">DNSSL</string>
-    <string name="message_desc">Do not Nuke SSL Certificates, please.</string>
-    <string name="message_link"> https://stackoverflow.com/questions/2012497/accepting-a-certificate-for-https-on-android/40112598#40112598 </string>
+    <string name="message_welcome">strings.xml</string>
+    <string name="message_intro">A message for you:</string>
+    <string name="message_msg">Please, DO NOT NUKE SSL certificates.</string>
+    <string name="message_link"> strings.xml </string>
 
 </resources>
