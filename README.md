@@ -1,4 +1,4 @@
-# Android-DNSSL (under development... don't use it)
+# Android-DNSSL (implementing HTTPS requests.... HTTP requests are already working)
 
 ### Purposes
 
