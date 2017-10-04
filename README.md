@@ -1,14 +1,30 @@
-# Android-DNSSL (implementing HTTPS requests.... HTTP requests are already working)
+# Android-DNSSL
+
+**Notice:** 
+
+* HTTP requests: working 
+* HTTPS requests: under develpment (I'm a little bit out of time with other projects...)
+
+
+### Technologies
+
+* Android/Java
+* Python 3
+* Flask
+* MongoDB
+
 
 ### Purposes
 
-* To defend a basic principle of security, when using HTTP services with encrypted w/Self-Signed Certificates: **DON'T NUKE SSL!**
+* To demonstrate that you don't need ** TO NUKE SSL CERTIFICATES **
 
-  To nuke Self-Signed SSL Certificates is totally against the principle of security that you're planning to promote for your application.
+  * To nuke Self-Signed SSL Certificates is totally against the principle of security that you're planning to promote for your application. *
 
-* To demonstrate with an easy example, the possibility of integration of technologies (Python, FLASK, MongoDB and Android.
+* To provide and example of integration among Python, FLASK, MongoDB and Android.
 
-  I'm taking advantage of the opportunity to demonstrate the integration of technologies that you can use in order to build your Android App, giving explanations and some code examples, tricks and so on. Have fun!
+
+  * Use this example for your further projects and improve this example if you want to. Have fun :)! *
+
 
 ### A little bit of SSL...
 
