@@ -18,12 +18,11 @@
 
 * To demonstrate that you don't need ** TO NUKE SSL CERTIFICATES **
 
-  * To nuke Self-Signed SSL Certificates is totally against the principle of security that you're planning to promote for your application. *
+  * To nuke Self-Signed SSL Certificates goes totally against the principle of security that you're planning to promote. 
 
 * To provide and example of integration among Python, FLASK, MongoDB and Android.
 
-
-  * Use this example for your further projects and improve this example if you want to. Have fun :)! *
+  * Use this example for your further projects and improve this example if you want to. Have fun :)!
 
 
 ### A little bit of SSL...
