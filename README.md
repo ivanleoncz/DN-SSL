@@ -3,7 +3,7 @@
 **Notice:** 
 
 * HTTP requests: working 
-* HTTPS requests: under develpment (I'm a little bit out of time with other projects...)
+* HTTPS requests: under develpment (I'm a little bit busy with other projects...)
 
 
 ### Technologies
@@ -22,7 +22,7 @@
 
 * To provide and example of integration among Python, FLASK, MongoDB and Android.
 
-  * Use this example for your further projects and improve this example if you want to. Have fun :)!
+  * Use this example for your further projects and improve this example if you want to.
 
 
 ### A little bit of SSL...
@@ -31,12 +31,7 @@ Worth reading: http://info.ssl.com/article.aspx?id=10241
 
 SSL was created to promote (at least attempt) security for HTTP traffic.
 
-A SSL Certificate verified/signed by a CA, is the best choice. 
-Nowadays, there are free CAs like Let's Encrypt (https://letsencrypt.org/), that can offer you very similar services as ther CAs, for free. But if for some reason, you're prefer to user a Self-Signed SSL Certificate, to guarantee security/encryption of the data transfered between your application and your webserver, DON'T NUKE THE SSL CERTIFICATE.
-
-There are some questions (a lot of, actually) on StackOverflow with answers like "copy/paste this code to nuke the ssl certificates".
-
-If you do not agree with this idea, go on with your reading :).
+A SSL Certificate verified/signed by a CA, is the best choice. Nowadays, there are free CAs like **Let's Encrypt** (https://letsencrypt.org/), that can offer you very similar services as other CAs, for free. But if for some reason, you prefer to use a Self-Signed SSL Certificate, to promote security/encryption of the data transfered between your application and your webserver, there is no sense to nuke all SSL certificates: a MITM can intercept your connection and use any SSL certificate, and your application will not know the difference. because you're not analyzing the SSL certificate used to encrypt the connection, if it is what you have in your App or not.
 
 
 ### How does it works?
